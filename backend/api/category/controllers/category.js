@@ -1,6 +1,9 @@
 const { sanitizeEntity } = require('strapi-utils');
 
 module.exports = {
+  async find() {
+    return 'strapi';
+  },
   /**
    * Retrieve a record.
    *
